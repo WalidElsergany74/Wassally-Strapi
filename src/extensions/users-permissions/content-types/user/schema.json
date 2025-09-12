@@ -92,6 +92,9 @@
     "available": {
       "type": "boolean",
       "default": false
+    },
+    "lastSettledAt": {
+      "type": "datetime"
     }
   }
 }

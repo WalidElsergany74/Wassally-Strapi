@@ -954,6 +954,7 @@ export interface PluginUsersPermissionsUser
         minLength: 6;
       }>;
     lag: Schema.Attribute.Float;
+    lastSettledAt: Schema.Attribute.DateTime;
     lat: Schema.Attribute.Float;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
